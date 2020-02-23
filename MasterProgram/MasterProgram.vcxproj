@@ -74,8 +74,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(SolutionDir)\thirdParty\opencv\build\include;$(SolutionDir)\thirdParty\librealsense\include;$(ProjectDir)include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)\thirdParty\opencv\build\vc15\lib;$(SolutionDir)\thirdParty\librealsense\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\thirdParty\opencv\include;$(SolutionDir)\thirdParty\librealsense\include;$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\thirdParty\opencv\lib;$(SolutionDir)\thirdParty\librealsense\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
