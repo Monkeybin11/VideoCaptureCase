@@ -16,8 +16,9 @@ int main()
 	// 首先打开相机
 
 	Camera::CameraOperate CameraPart;
-	std::thread thread_CameraPart(&Camera::CameraOperate::CameraInitialAndImshow, &CameraPart, 640, 360, 30);
-	thread_CameraPart.join();
+	//std::thread thread_CameraPart(&Camera::CameraOperate::CameraInitialAndImshow, &CameraPart, 640, 360, 30);
+	//thread_CameraPart.join();
+	CameraPart.CameraInitialAndImshow(640, 360, 30);
 
 	WpfInitial();
 	//system("pause");
